@@ -173,7 +173,7 @@ Commands to teach:
 ```bash
 pwd
 ls
-echo "Hello, computer!"
+echo 'Hello, computer!'
 ```
 
 ### 1:55–2:00 - Wrap-Up & Teaser

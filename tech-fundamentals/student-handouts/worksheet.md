@@ -56,8 +56,8 @@ Write what each command does and, if you try it, the output you saw.
 | ------------------------- | -------------------- | ------------------------ |
 | `pwd`                     |                      |                          |
 | `ls`                      |                      |                          |
-| `echo "Hello, computer!"` |                      |                          |
-| `echo "Hello, $USER!"`    |                      |                          |
+| `echo 'Hello, computer!'` |                      |                          |
+| `echo 'Hello, $USER!'`    |                      |                          |
 
 ## 6) Reflection
 

@@ -13,7 +13,7 @@ Keep the momentum going with a few quick wins. Pick one or two to do this week.
 
 - Rebuild today's folder tree (`Tech-Workshop-1/`) and add a new file for
   something you like (music, sports, art).
-- Run the three commands again: `pwd`, `ls`, `echo "Hello, computer!"`. Say out
+- Run the three commands again: `pwd`, `ls`, `echo 'Hello, computer!'`. Say out
   loud what each one does.
 - Teach a friend or family member the difference between hardware and software.
 

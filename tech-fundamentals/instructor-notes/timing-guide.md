@@ -53,7 +53,7 @@ Keep energy light and celebrate curiosity.
 ## 1:40–1:55 - First Terminal Experience
 
 - **Objective**: demystify the terminal.
-- **Commands**: `pwd`, `ls`, `echo "Hello, computer!"`.
+- **Commands**: `pwd`, `ls`, `echo 'Hello, computer!'`.
 - **Flow**: model once, then let students run and share output.
 - **Safety**: remind them terminals are powerful; today is read-only and printing.
 
