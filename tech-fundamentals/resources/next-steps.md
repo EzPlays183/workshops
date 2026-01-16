@@ -19,7 +19,7 @@ Keep the momentum going with a few quick wins. Pick one or two to do this week.
 
 ## Get Ready for JavaScript Basics (Next Workshop)
 
-- Check the [setup instructions here](../setup) to make sure your computer is ready.
+- Check the [setup instructions here](../../setup) to make sure your computer is ready.
 
 ## Explore More (If Curious)
 
