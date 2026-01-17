@@ -12,10 +12,11 @@ This guide will help you install all the software needed for the Lansing Tech St
 
 - **WSL2 with Ubuntu** (Windows only) - Linux environment for Windows
 - **Linux Environment** (Chromebook only) - Developer tools access
+- **Git** - Version control for saving and sharing code
+  - **GitHub Account** - You will also need to create a GitHub account
 - **VS Code** - Code editor for all your programming
 - **Node.js** - Run JavaScript programs
 - **Python 3** - For Python workshops (can be deferred)
-- **Git** - Version control for saving and sharing code
 
 **Time estimate:** 30-45 minutes \
 **Required before:** JavaScript Basics workshop (1/22/2026) \
@@ -249,7 +250,7 @@ sudo apt install git
 ```
 
 **Mac:**
-Git comes pre-installed. If needed:
+Git comes pre-installed. If for some reason it's not there, run:
 
 ```bash
 xcode-select --install
