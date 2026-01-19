@@ -4,6 +4,10 @@
   "features": {
     "ghcr.io/devcontainers/features/python:1": {
       "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/ruby:1": {
+      "version": "3.2.8",
+      "installRubyGems": "bundler jekyll"
     }
   },
   "customizations": {
@@ -30,5 +34,5 @@
       }
     }
   },
-  "postCreateCommand": "echo '✅ Environment ready! Node.js:' && node --version && echo 'Python:' && python3 --version"
+  "postCreateCommand": "bundle install && echo '✅ Environment ready! Node.js:' && node --version && npm --version && echo 'Python:' && python3 --version && echo 'Ruby:' && ruby --version"
 }
