@@ -1,8 +1,8 @@
 // Interactive Adventure Story - Example Solution
 
 // Story Variables
-const heroName = "Alex the Curious";
-const sidekickName = "Robo the Robot";
+const heroName = "Techster the Curious";
+const sidekickName = "Byte the Brave";
 let currentLocation = "Mysterious Forest";
 let treasureFound = 0;
 const hasMagicPower = true;
