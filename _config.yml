@@ -72,6 +72,29 @@ navigation:
             url: /javascript-basics/instructor-notes/common-questions
           - title: Timing Guide
             url: /javascript-basics/instructor-notes/timing-guide
+  - title: Interactive HTML + JavaScript
+    url: /interactive-html-javascript/
+    subnav:
+      - title: Slides
+        url: /interactive-html-javascript/slides.html
+      - title: Resources
+        items:
+          - title: Glossary
+            url: /interactive-html-javascript/resources/glossary
+          - title: Next Steps
+            url: /interactive-html-javascript/resources/next-steps
+      - title: Student Handouts
+        items:
+          - title: Vocabulary
+            url: /interactive-html-javascript/student-handouts/vocabulary
+          - title: Worksheet
+            url: /interactive-html-javascript/student-handouts/worksheet
+      - title: Instructor Notes
+        items:
+          - title: Common Questions
+            url: /interactive-html-javascript/instructor-notes/common-questions
+          - title: Timing Guide
+            url: /interactive-html-javascript/instructor-notes/timing-guide
 
 # Defaults for all pages
 defaults:

@@ -33,11 +33,16 @@ Learn JavaScript fundamentals: variables, data types, console.log, and string co
 
 ---
 
-### Interactive HTML + JavaScript
+### [Interactive HTML + JavaScript]({{ site.baseurl }}/interactive-html-javascript/)
 
 **Date:** February 5, 2026  
 **Duration:** 2 hours  
-*Coming soon*
+**Theme:** *"Making the browser respond to you with forms and JavaScript"*
+
+Build a live message box using text inputs, dropdowns, and JavaScript-driven
+updates to the page.
+
+[View Workshop ->]({{ site.baseurl }}/interactive-html-javascript/)
 
 ---
 

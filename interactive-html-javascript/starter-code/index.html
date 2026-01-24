@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interactive Message Box</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main class="page">
+    <header class="page-header">
+      <h1>Interactive Message Box</h1>
+      <p>Use the controls to update the preview in real time.</p>
+    </header>
+
+    <section class="workspace">
+      <form class="controls" autocomplete="off">
+        <div class="field">
+          <label for="titleInput">Headline</label>
+          <input id="titleInput" type="text" placeholder="Type a headline">
+        </div>
+
+        <div class="field">
+          <label for="messageInput">Message</label>
+          <textarea id="messageInput" rows="4" placeholder="Write your message"></textarea>
+        </div>
+
+        <div class="field">
+          <label for="colorSelect">Theme</label>
+          <select id="colorSelect">
+            <option value="theme-blue">Ocean Blue</option>
+            <option value="theme-green">Fresh Green</option>
+            <option value="theme-amber">Sunny Amber</option>
+            <option value="theme-charcoal">Charcoal</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="sizeInput">Box size (px)</label>
+          <input id="sizeInput" type="number" min="180" max="420" step="10" value="300">
+        </div>
+      </form>
+
+      <section class="preview">
+        <div class="message-preview theme-blue" id="messageBox">
+          <h2 id="previewTitle">Your headline appears here</h2>
+          <p id="previewBody">Your message appears here.</p>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

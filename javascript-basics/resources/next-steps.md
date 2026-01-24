@@ -16,6 +16,7 @@ section: Resources
 
 ## Get Ready for Interactive HTML + JavaScript (Workshop #3)
 
+- **Visit the new workshop page**: [Interactive HTML + JavaScript]({{ site.baseurl }}/interactive-html-javascript/)
 - **Watch HTML basics videos**: Learn about tags, elements, and structure
 - **Look at web page source code**: Right-click any page and view source
 - **Think about interactivity**: What buttons or forms have you used on websites?

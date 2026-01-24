@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Interactive HTML + JavaScript</title>
+
+	<link rel="stylesheet" href="../assets/revealjs/reset.css">
+	<link rel="stylesheet" href="../assets/revealjs/reveal.css">
+	<link rel="stylesheet" href="../assets/revealjs/theme/black.css">
+
+	<link rel="stylesheet" href="../assets/revealjs/plugin/highlight/monokai.css">
+	<style>
+		.outlined {
+			text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black !important;
+		}
+
+		div.slide-background-content {
+			background-size: 900px 900px;
+			background-repeat: no-repeat;
+			background-position: center center;
+			opacity: 0.05;
+			background-image: url("../assets/images/logo-transparent.png");
+		}
+	</style>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-image="../assets/images/logo-transparent.png" data-background-size="900px 900px"
+				data-background-opacity="0.7" data-background-repeat="no-repeat"
+				data-background-position="center center">
+				<h2 class="outlined">Interactive HTML + JavaScript</h2>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p class="outlined">by Brendon Thiede</p>
+			</section>
+
+			<section>
+				<h2>Student Goals</h2>
+				<ul>
+					<li>Connect HTML inputs to JavaScript</li>
+					<li>Update text and styles in the DOM</li>
+					<li>Build an interactive message box</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Icebreaker</h2>
+				<p>What website lets you customize something?</p>
+			</section>
+
+			<section>
+				<section>
+					<h2>HTML</h2>
+					<p>Structure the page</p>
+				</section>
+				<section>
+					<h2>HTML + Forms</h2>
+					<p>Inputs, textarea, select</p>
+				</section>
+				<section>
+					<h3>HTML Structure</h3>
+					<pre><code data-trim class="language-html">
+<label for="titleInput">Title</label>
+<input id="titleInput" type="text">
+
+<label for="messageInput">Message</label>
+<textarea id="messageInput"></textarea>
+                    </code></pre>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>CSS Themes</h2>
+					<p>Make it look nice</p>
+				</section>
+				<section>
+					<h3>Theme Classes</h3>
+					<pre><code data-trim class="language-css">
+.theme-blue {
+  background: #dbeafe;
+  border-color: #2563eb;
+}
+
+.theme-amber {
+  background: #fef3c7;
+  border-color: #d97706;
+}
+                    </code></pre>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>JavaScript + DOM</h2>
+					<p>Make it respond</p>
+				</section>
+				<section>
+					<h3>Find Elements</h3>
+					<pre><code data-trim class="language-javascript">
+const titleInput = document.querySelector("#titleInput");
+const messageInput = document.querySelector("#messageInput");
+                    </code></pre>
+				</section>
+				<section>
+					<h3>Update the Preview</h3>
+					<pre><code data-trim class="language-javascript">
+previewTitle.textContent = titleInput.value;
+previewBody.textContent = messageInput.value;
+                    </code></pre>
+				</section>
+				<section>
+					<h3>Listen for Events</h3>
+					<pre><code data-trim class="language-javascript">
+titleInput.addEventListener("input", updatePreview);
+colorSelect.addEventListener("change", updatePreview);
+                    </code></pre>
+				</section>
+			</section>
+
+			<section>
+				<h2>Break</h2>
+				<p>Stretch, grab water, and come back ready to build.</p>
+			</section>
+
+			<section>
+				<section>
+					<h2>Your Mission</h2>
+					<p>Build an interactive message box.</p>
+				</section>
+				<section>
+					<h3>Project Checklist</h3>
+					<ul>
+						<li>Update title + message text</li>
+						<li>Change box color from a dropdown</li>
+						<li>Resize the box with a number input</li>
+						<li>Test and refresh often</li>
+					</ul>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>Save Your Work</h2>
+					<pre><code data-trim>
+git add .
+git commit -m "Complete message box"
+git push
+                    </code></pre>
+				</section>
+				<section>
+					<h2>Show and Tell</h2>
+					<p>Who wants to share their message box?</p>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>Wrap-Up</h2>
+				</section>
+				<section>
+					<h3>What We Learned</h3>
+					<ul>
+						<li>HTML inputs collect user info</li>
+						<li>JavaScript updates the DOM</li>
+						<li>Events make pages interactive</li>
+						<li>CSS themes change the look</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Coming Up Next</h3>
+					<p>Python Coding Introduction</p>
+					<p>Make full programs step by step.</p>
+				</section>
+			</section>
+
+			<section>Questions?</section>
+			<section data-background-image="../assets/images/logo-transparent.png" data-background-size="900px 900px"
+				data-background-opacity="1" data-background-repeat="no-repeat" data-background-position="center center">
+				<h2 class="outlined"><em>Thank you!</em></h2>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+			</section>
+		</div>
+	</div>
+
+	<script src="../assets/revealjs/reveal.js"></script>
+	<script src="../assets/revealjs/plugin/notes/notes.js"></script>
+	<script src="../assets/revealjs/plugin/markdown/markdown.js"></script>
+	<script src="../assets/revealjs/plugin/highlight/highlight.js"></script>
+	<script>
+		Reveal.initialize({
+			hash: true,
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>

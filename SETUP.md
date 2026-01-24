@@ -6,7 +6,7 @@ title: Environment Setup Guide
 
 # Environment Setup Guide
 
-This guide will help you install all the software needed for the Lansing Tech Studio workshops. Complete these steps before attending workshops to maximize hands-on time!
+This guide will help you install all the software needed for the Lansing Tech Studio workshops. Complete these steps before attending workshops to maximize hands-on time! If you prefer a video walkthrough, check out our [Workshop Setup playlist](https://youtube.com/playlist?list=PLcAS4Bap4HT-ThYld-2zikuhUShZYpk6G&si=xb5tEnSFvFOZrgOJ).
 
 ## What You'll Install
 
